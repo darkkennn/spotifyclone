@@ -1,7 +1,11 @@
+import React from 'react';
+import Login from "./Login";
+
 function App() {
   return (
     <div className="App">
-      <header> Hey wassup </header>
+      {/* Login with spotify button */ }
+      <Login />
     </div>
   );
 }

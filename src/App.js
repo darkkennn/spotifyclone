@@ -28,11 +28,9 @@ function App() {
   return (
     <div className="App">
       {
-        token ? (
-          <Player />
-        ) : (
+        token ?
+          <Player /> : 
           <Login />
-        )
       }
     </div>
   );

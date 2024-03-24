@@ -1,16 +1,17 @@
-import React from 'react'
-import './Login.css'
+import React from 'react';
+import './Login.css';
+import { loginUrl } from './spotify';
 
 const Login = () => {
   return (
-    <div className='Login'>I'm the login page
+    <div className='Login'>
     <img
         src= "https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg" 
         alt=""
      />
-      <a>Login with spotify</a>
+      <a href={loginUrl}>LOGIN WITH SPOTIFY</a>
     </div>
   )
 }
 
-export default Login
+export default Login;
